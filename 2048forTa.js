@@ -43,6 +43,20 @@ function game(){
         window.alert("you are not certificated mogician yet.");
         init();
     }
+    if(isMogician()){
+        window.alert("congratulations for you true mogician on donating another 1s.")
+        init();
+    }
+}
+
+function isMogician(){
+    var ret_value=0;
+    for(let i=0;i<4;i++){
+        for(let j=0;j<4;j++){
+            if(grid[i][j]===2048) ret_value=1;
+        }
+    }
+    return ret_value; 
 }
 
 function isFull(){
