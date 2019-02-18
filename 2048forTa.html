@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <title>2048forTa</title>
+        <link rel="stylesheet" type="text/css" href="2048forTa.css">
+        
+    </head>
+    <body>
+        <body id="2048forTa" onkeyup="press(event)" onload="welcome()">
+        <div class="container">
+            <div id="heading">
+                <h1 id="title">2048forTa</h1>
+                <div id="score-board">Score:<p id="score">0</p><div>
+            </div>
+
+            <table id="grid-canvas">
+                <tr class="gird-row">
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                </tr>
+                <tr class="gird-row">
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                </tr>
+                <tr class="gird-row">
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                </tr>
+                <tr class="gird-row">
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                    <td class="grid-cell"></td>
+                </tr>
+            </table>
+        </div>
+
+        <script type="text/javascript" src="2048forTa.js"></script>
+    </body>
+
+</html>
